@@ -1,0 +1,91 @@
+body {
+		width: 95%;
+		max-width: auto;
+		margin: auto;
+		background: url('FUNDO.JPG') center center no-repeat fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;		
+		font-family: 'ubuntu';
+		color: white;
+		}
+		
+		
+		
+Main { 
+	background: #f0F4EB30;
+	padding: 5px 40px;
+	margin-top: 20px;
+	border-radius: 10px;
+	
+}
+
+
+
+	logo, classe1, classe2 {
+		margin:30px 0;
+		text-align: center;
+		width:100%
+		
+	}
+
+	concerts{margin 30px 0;
+	text-align: center;
+	}
+	
+	concertes table{
+		background:radius: 10px;
+		padding:10px;
+		margin: 0 auto;
+	}
+	
+img{
+	max-width:100%;
+	height:auto;
+}
+
+	.menu ul li {
+		
+		color :white;
+		float: left;
+		width:200px;
+		height:20px;
+		height:40px;
+		display: inline-block;
+		text-align:center;
+		line-height:40 px;
+		font-size:25px;
+		position: relative;
+	}
+
+	.menu ul li:hover{ 
+	background-color: #696969;
+	}
+	
+	.menu ul ul{
+		padding: 0;
+	}
+	
+	.menu ul ul {
+		display: none;	
+	}
+			
+	.menu ul li:hover > ul{
+	display: block; 
+	}
+	
+	.menu ul ul li:hover{
+		background-color: #9C9C9C;
+		}
+	
+	.menu a{
+		color:white;
+		text decoration: none;
+		}
+		
+	.menu{
+   display: flex;
+   justify-content: center;
+}
+	
